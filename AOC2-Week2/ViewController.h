@@ -26,9 +26,11 @@
     IBOutlet UIButton *equals;
     IBOutlet UIButton *clear;
     IBOutlet UIButton *info;
+    IBOutlet UISegmentedControl *segment;
     
 }
 
 -(IBAction)onClick:(id)sender;
 -(IBAction)onClickSecond:(id)sender;
+-(IBAction)onSwitched:(id)sender;
 @end

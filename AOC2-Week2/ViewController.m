@@ -123,4 +123,48 @@
         }
     }
 }
+
+-(IBAction)onSwitched:(id)sender
+{
+    UISwitch *thisSwitch = (UISwitch*)sender;
+    if (thisSwitch != nil)
+    {
+        if (thisSwitch.on == true) {
+            zero.enabled = true;
+            one.enabled = true;
+            two.enabled = true;
+            three.enabled = true;
+            four.enabled = true;
+            five.enabled = true;
+            six.enabled = true;
+            seven.enabled = true;
+            eight.enabled = true;
+            nine.enabled = true;
+            clear.enabled = true;
+            info.enabled = true;
+            segment.enabled = true;
+        }
+        else if (thisSwitch.on == false)
+        {
+            textField.text = @"";
+            textField.enabled = false;
+            zero.enabled = false;
+            one.enabled = false;
+            two.enabled = false;
+            three.enabled = false;
+            four.enabled = false;
+            five.enabled = false;
+            six.enabled = false;
+            seven.enabled = false;
+            eight.enabled = false;
+            plus.enabled = false;
+            equals.enabled = false;
+            nine.enabled = false;
+            clear.enabled = false;
+            info.enabled = false;
+            segment.enabled = false;
+        }
+        
+    }
+}
 @end
