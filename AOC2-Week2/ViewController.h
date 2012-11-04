@@ -30,4 +30,5 @@
 }
 
 -(IBAction)onClick:(id)sender;
+-(IBAction)onClickSecond:(id)sender;
 @end

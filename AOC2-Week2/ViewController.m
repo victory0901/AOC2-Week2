@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "SecondViewController.h"
 @interface ViewController ()
 
 @end
@@ -96,4 +96,31 @@
     }
 }
 
+-(IBAction)onClickSecond:(id)sender
+{
+    UIButton *buttonTwo = (UIButton*)sender;
+    if (buttonTwo != nil)
+    {
+        if (buttonTwo.tag == 0) //plus button
+        {
+            //do something
+        }
+        else if (buttonTwo.tag == 1) //equals button
+        {
+            //do something
+        }
+        else if (buttonTwo.tag == 2) //Clear button
+        {
+            //do something
+        }
+        else if (buttonTwo.tag == 3) //info button
+        {
+            SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
+            if (viewController != nil)
+            {
+                <#statements#>
+            }
+        }
+    }
+}
 @end

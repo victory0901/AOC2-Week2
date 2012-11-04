@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4365271647208C007BDE79 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A4365261647208C007BDE79 /* SecondView.xib */; };
+		1A43652B164724A3007BDE79 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A43652A164724A3007BDE79 /* SecondViewController.m */; };
 		1A6858561646F21700572DCF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6858551646F21700572DCF /* UIKit.framework */; };
 		1A6858581646F21700572DCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6858571646F21700572DCF /* Foundation.framework */; };
 		1A68585A1646F21700572DCF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6858591646F21700572DCF /* CoreGraphics.framework */; };
@@ -21,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4365261647208C007BDE79 /* SecondView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondView.xib; sourceTree = "<group>"; };
+		1A436529164724A3007BDE79 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1A43652A164724A3007BDE79 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1A6858511646F21700572DCF /* AOC2-Week2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AOC2-Week2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A6858551646F21700572DCF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1A6858571646F21700572DCF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -89,6 +94,9 @@
 				1A68586E1646F21800572DCF /* ViewController.m */,
 				1A6858701646F21800572DCF /* ViewController.xib */,
 				1A68585C1646F21700572DCF /* Supporting Files */,
+				1A4365261647208C007BDE79 /* SecondView.xib */,
+				1A436529164724A3007BDE79 /* SecondViewController.h */,
+				1A43652A164724A3007BDE79 /* SecondViewController.m */,
 			);
 			path = "AOC2-Week2";
 			sourceTree = "<group>";
@@ -163,6 +171,7 @@
 				1A68586A1646F21800572DCF /* Default@2x.png in Resources */,
 				1A68586C1646F21800572DCF /* Default-568h@2x.png in Resources */,
 				1A6858721646F21800572DCF /* ViewController.xib in Resources */,
+				1A4365271647208C007BDE79 /* SecondView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				1A6858621646F21800572DCF /* main.m in Sources */,
 				1A6858661646F21800572DCF /* AppDelegate.m in Sources */,
 				1A68586F1646F21800572DCF /* ViewController.m in Sources */,
+				1A43652B164724A3007BDE79 /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +302,7 @@
 				1A6858771646F21800572DCF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
