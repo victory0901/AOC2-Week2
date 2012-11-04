@@ -118,7 +118,7 @@
             SecondViewController *viewController = [[SecondViewController alloc] initWithNibName:@"SecondView" bundle:nil];
             if (viewController != nil)
             {
-                <#statements#>
+                [self presentViewController:viewController animated:TRUE completion:nil];
             }
         }
     }
