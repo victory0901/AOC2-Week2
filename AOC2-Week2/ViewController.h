@@ -28,4 +28,6 @@
     IBOutlet UIButton *info;
     
 }
+
+-(IBAction)onClick:(id)sender;
 @end

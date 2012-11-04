@@ -28,4 +28,72 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)onClick:(id)sender
+{
+    UIButton *button = (UIButton*)sender;
+    if (button != nil)
+    {
+        if (button.tag == 0)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 1)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 2)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 3)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 4)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 5)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 6)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 7)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 8)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+        else if (button.tag == 9)
+        {
+            
+            plus.enabled = true;
+            equals.enabled = true;
+        }
+    }
+}
+
 @end
