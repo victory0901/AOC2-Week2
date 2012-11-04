@@ -33,4 +33,5 @@
 -(IBAction)onClick:(id)sender;
 -(IBAction)onClickSecond:(id)sender;
 -(IBAction)onSwitched:(id)sender;
+-(IBAction)onChange:(id)sender;
 @end

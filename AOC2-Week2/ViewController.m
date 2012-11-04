@@ -129,7 +129,10 @@
     UISwitch *thisSwitch = (UISwitch*)sender;
     if (thisSwitch != nil)
     {
-        if (thisSwitch.on == true) {
+        if (thisSwitch.on == true)
+        {
+            textField.text = @"0";
+            textField.enabled = true;
             zero.enabled = true;
             one.enabled = true;
             two.enabled = true;
@@ -146,6 +149,7 @@
         }
         else if (thisSwitch.on == false)
         {
+            self.view.backgroundColor = [UIColor whiteColor];
             textField.text = @"";
             textField.enabled = false;
             zero.enabled = false;
@@ -165,6 +169,29 @@
             segment.enabled = false;
         }
         
+    }
+}
+
+-(IBAction)onChange:(id)sender
+{
+    UISegmentedControl *segmentControl = (UISegmentedControl*)sender;
+    
+    if (segmentControl != nil)
+    {
+        int selectedIndex = segmentControl.selectedSegmentIndex;
+        
+        if (selectedIndex == 0)
+        {
+            self.view.backgroundColor = [UIColor whiteColor];
+        }
+        else if (selectedIndex == 1)
+        {
+            self.view.backgroundColor = [UIColor greenColor];
+        }
+        else if (selectedIndex == 2)
+        {
+            self.view.backgroundColor = [UIColor blueColor];
+        }
     }
 }
 @end
