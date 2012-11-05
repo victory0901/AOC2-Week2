@@ -28,6 +28,7 @@
     IBOutlet UIButton *info;
     IBOutlet UISegmentedControl *segment;
     
+    NSString *firstNumber;
 }
 
 -(IBAction)onClick:(id)sender;

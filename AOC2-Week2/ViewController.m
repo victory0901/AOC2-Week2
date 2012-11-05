@@ -35,61 +35,61 @@
     {
         if (button.tag == 0)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@0",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 1)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@1",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 2)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@2",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 3)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@3",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 4)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@4",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 5)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@5",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 6)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@6",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 7)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@7",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 8)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@8",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
         else if (button.tag == 9)
         {
-            
+            textField.text=[NSString stringWithFormat:@"%@9",textField.text];
             plus.enabled = true;
             equals.enabled = true;
         }
@@ -103,15 +103,19 @@
     {
         if (buttonTwo.tag == 0) //plus button
         {
-            //do something
+            firstNumber = textField.text;
+            textField.text=@"";
         }
         else if (buttonTwo.tag == 1) //equals button
         {
-            //do something
+            NSString *secondNumber = textField.text;
+            textField.text= [NSString stringWithFormat:@"%qi",[secondNumber longLongValue]+[firstNumber longLongValue]];
+            equals.enabled = false;
         }
         else if (buttonTwo.tag == 2) //Clear button
         {
-            //do something
+            textField.text = @"0";
+            plus.enabled = false;
         }
         else if (buttonTwo.tag == 3) //info button
         {
